@@ -1,0 +1,108 @@
+@article{cruzroa2017,
+  abstract = {With the increasing ability to routinely and rapidly digitize whole slide images with slide scanners, there has been interest in developing computerized image analysis algorithms for automated detection of disease extent from digital pathology images. The manual identification of presence and extent of breast cancer by a pathologist is critical for patient management for tumor staging and assessing treatment response. However, this process is tedious and subject to inter- and intra-reader variability. For computerized methods to be useful as decision support tools, they need to be resilient to data acquired from different sources, different staining and cutting protocols and different scanners. The objective of this study was to evaluate the accuracy and robustness of a deep learning-based method to automatically identify the extent of invasive tumor on digitized images. Here, we present a new method that employs a convolutional neural network for detecting presence of invasive tumor on whole slide images. Our approach involves training the classifier on nearly 400 exemplars from multiple different sites, and scanners, and then independently validating on almost 200 cases from The Cancer Genome Atlas. Our approach yielded a Dice coefficient of 75.86{\%}, a positive predictive value of 71.62{\%} and a negative predictive value of 96.77{\%} in terms of pixel-by-pixel evaluation compared to manually annotated regions of invasive ductal carcinoma.},
+  author = {Cruz-Roa, Angel
+  and Gilmore, Hannah
+  and Basavanhally, Ajay
+  and Feldman, Michael
+  and Ganesan, Shridar
+  and Shih, Natalie N.C.
+  and Tomaszewski, John
+  and Gonz{\'a}lez, Fabio A.
+  and Madabhushi, Anant},
+  day = {18},
+  doi = {10.1038/srep46450},
+  issn = {2045-2322},
+  journal = {Scientific Reports},
+  month = {Apr},
+  number = {1},
+  pages = {46450},
+  title = {Accurate and reproducible invasive breast cancer detection in whole-slide images: A Deep Learning approach for quantifying tumor extent},
+  url = {https://doi.org/10.1038/srep46450},
+  volume = {7},
+  year = {2017}
+}
+
+@inproceedings{grill2020,
+  author = {Grill, Jean-Bastien and Strub, Florian and Altch\'{e}, Florent and Tallec, Corentin and Richemond, Pierre and Buchatskaya, Elena and Doersch, Carl and Avila Pires, Bernardo and Guo, Zhaohan and Gheshlaghi Azar, Mohammad and Piot, Bilal and kavukcuoglu, koray and Munos, Remi and Valko, Michal},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+  pages = {21271--21284},
+  publisher = {Curran Associates, Inc.},
+  title = {Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf},
+  volume = {33},
+  year = {2020}
+}
+
+@inproceedings{hou2016,
+  author = {Hou, Le and Samaras, Dimitris and Kurc, Tahsin M. and Gao, Yi and Davis, James E. and Saltz, Joel H.},
+  booktitle = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  doi = {https://doi.org/10.1109/CVPR.2016.266},
+  keywords = {Cancer;Training;Image resolution;Robustness;Predictive models;Neural networks;Visualization},
+  number = {},
+  pages = {2424-2433},
+  title = {Patch-Based Convolutional Neural Network for Whole Slide Tissue Image Classification},
+  volume = {},
+  year = {2016}
+}
+
+@article{rahman2025,
+  abstract = {An integral stage in typical digital pathology workflows involves deriving specific features from tiles extracted from a tessellated whole-slide image. Notably, various computer vision neural network architectures, particularly the ImageNet pretrained, have been extensively used in this domain. This study critically analyzes multiple strategies for encoding tiles to understand the extent of transfer learning and identify the most effective approach. The study categorizes neural network performance into 3 weight initialization methods: random, ImageNet-based, and self-supervised learning. Additionally, we propose a framework based on task-specific self-supervised learning, which introduces a shallow feature extraction method, employing a spatial-channel attention block to glean distinctive features optimized for histopathology intricacies. Across 2 different downstream classification tasks (patch classification and weakly supervised whole-slide image classification) with diverse classification data sets, including colorectal cancer histology, Patch Camelyon, prostate cancer detection, The Cancer Genome Atlas, and CIFAR-10, our task-specific self-supervised encoding approach consistently outperforms other convolutional neural network–based encoders. The better performances highlight the potential of task-specific attention-based self-supervised training in tailoring feature extraction for histopathology, indicating a shift from using pretrained models originating outside the histopathology domain. Our study supports the idea that task-specific self-supervised learning allows domain-specific feature extraction, encouraging a more focused analysis.},
+  author = {Tawsifur Rahman and Alexander S. Baras and Rama Chellappa},
+  doi = {https://doi.org/10.1016/j.modpat.2024.100636},
+  issn = {0893-3952},
+  journal = {Modern Pathology},
+  keywords = {computational pathology, self-supervised learning, spatial-channel attention, weakly supervised learning},
+  number = {1},
+  pages = {100636},
+  title = {Evaluation of a Task-Specific Self-Supervised Learning Framework in Digital Pathology Relative to Transfer Learning Approaches and Existing Foundation Models},
+  url = {https://www.sciencedirect.com/science/article/pii/S0893395224002163},
+  volume = {38},
+  year = {2025}
+}
+
+@article{talo2019,
+  abstract = {Early and accurate diagnosis of diseases can often save lives. Diagnosis of diseases from tissue samples is done manually by pathologists. Diagnostics process is usually time consuming and expensive. Hence, automated analysis of tissue samples from histopathology images has critical importance for early diagnosis and treatment. The computer aided systems can improve the quality of diagnoses and give pathologists a second opinion for critical cases. In this study, a deep learning based transfer learning approach has been proposed to classify histopathology images automatically. Two well-known and current pre-trained convolutional neural network (CNN) models, ResNet-50 and DenseNet-161, have been trained and tested using color and grayscale images. The DenseNet-161 tested on grayscale images and obtained the best classification accuracy of 97.89%. Additionally, ResNet-50 pre-trained model was tested on the color images of the Kimia Path24 dataset and achieved the highest classification accuracy of 98.87%. According to the obtained results, it may be said that the proposed pre-trained models can be used for fast and accurate classification of histopathology images and assist pathologists in their daily clinical tasks.},
+  author = {Muhammed Talo},
+  doi = {https://doi.org/10.1016/j.artmed.2019.101743},
+  issn = {0933-3657},
+  journal = {Artificial Intelligence in Medicine},
+  keywords = {Medical image classification, Histopathology, Deep learning, Transfer learning, CNN},
+  pages = {101743},
+  title = {Automated classification of histopathology images using transfer learning},
+  url = {https://www.sciencedirect.com/science/article/pii/S0933365719307110},
+  volume = {101},
+  year = {2019}
+}
+//What
+// Is this a comment or am i tripping
+@article{tomita2019,
+  abstract = {Deep learning–based methods, such as the sliding window approach for cropped-image classification and heuristic aggregation for whole-slide inference, for analyzing histological patterns in high-resolution microscopy images have shown promising results. These approaches, however, require a laborious annotation process and are fragmented.To evaluate a novel deep learning method that uses tissue-level annotations for high-resolution histological image analysis for Barrett esophagus (BE) and esophageal adenocarcinoma detection.This diagnostic study collected deidentified high-resolution histological images (N = 379) for training a new model composed of a convolutional neural network and a grid-based attention network. Histological images of patients who underwent endoscopic esophagus and gastroesophageal junction mucosal biopsy between January 1, 2016, and December 31, 2018, at Dartmouth-Hitchcock Medical Center (Lebanon, New Hampshire) were collected.The model was evaluated on an independent testing set of 123 histological images with 4 classes: normal, BE-no-dysplasia, BE-with-dysplasia, and adenocarcinoma. Performance of this model was measured and compared with that of the current state-of-the-art sliding window approach using the following standard machine learning metrics: accuracy, recall, precision, and F1 score.Of the independent testing set of 123 histological images, 30 (24.4\%) were in the BE-no-dysplasia class, 14 (11.4\%) in the BE-with-dysplasia class, 21 (17.1\%) in the adenocarcinoma class, and 58 (47.2\%) in the normal class. Classification accuracies of the proposed model were 0.85 (95\% CI, 0.81-0.90) for the BE-no-dysplasia class, 0.89 (95\% CI, 0.84-0.92) for the BE-with-dysplasia class, and 0.88 (95\% CI, 0.84-0.92) for the adenocarcinoma class. The proposed model achieved a mean accuracy of 0.83 (95\% CI, 0.80-0.86) and marginally outperformed the sliding window approach on the same testing set. The F1 scores of the attention-based model were at least 8\% higher for each class compared with the sliding window approach: 0.68 (95\% CI, 0.61-0.75) vs 0.61 (95\% CI, 0.53-0.68) for the normal class, 0.72 (95\% CI, 0.63-0.80) vs 0.58 (95\% CI, 0.45-0.69) for the BE-no-dysplasia class, 0.30 (95\% CI, 0.11-0.48) vs 0.22 (95\% CI, 0.11-0.33) for the BE-with-dysplasia class, and 0.67 (95\% CI, 0.54-0.77) vs 0.58 (95\% CI, 0.44-0.70) for the adenocarcinoma class. However, this outperformance was not statistically significant.Results of this study suggest that the proposed attention-based deep neural network framework for BE and esophageal adenocarcinoma detection is important because it is based solely on tissue-level annotations, unlike existing methods that are based on regions of interest. This new model is expected to open avenues for applying deep learning to digital pathology.},
+  author = {Tomita, Naofumi and Abdollahi, Behnaz and Wei, Jason and Ren, Bing and Suriawinata, Arief and Hassanpour, Saeed},
+  doi = {10.1001/jamanetworkopen.2019.14645},
+  eprint = {https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2753982/tomita\_2019\_oi\_190563.pdf},
+  issn = {2574-3805},
+  journal = {JAMA Network Open},
+  month = {11},
+  number = {11},
+  pages = {e1914645-e1914645},
+  title = {Attention-Based Deep Neural Networks for Detection of Cancerous and Precancerous Esophagus Tissue on Histopathological Slides},
+  url = {https://doi.org/10.1001/jamanetworkopen.2019.14645},
+  volume = {2},
+  year = {2019}
+}
+
+
+@ARTICLE{9462394,
+  author={Liu, Xiao and Zhang, Fanjin and Hou, Zhenyu and Mian, Li and Wang, Zhaoyu and Zhang, Jing and Tang, Jie},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  title={Self-Supervised Learning: Generative or Contrastive},
+  year={2023},
+  volume={35},
+  number={1},
+  pages={857-876},
+  abstract={Deep supervised learning has achieved great success in the last decade. However, its defects of heavy dependence on manual labels and vulnerability to attacks have driven people to find other paradigms. As an alternative, self-supervised learning (SSL) attracts many researchers for its soaring performance on representation learning in the last several years. Self-supervised representation learning leverages input data itself as supervision and benefits almost all types of downstream tasks. In this survey, we take a look into new self-supervised learning methods for representation in computer vision, natural language processing, and graph learning. We comprehensively review the existing empirical methods and summarize them into three main categories according to their objectives: generative, contrastive, and generative-contrastive (adversarial). We further collect related theoretical analysis on self-supervised learning to provide deeper thoughts on why self-supervised learning works. Finally, we briefly discuss open problems and future directions for self-supervised learning. An outline slide for the survey is provided$^1$1.},
+  keywords={Data models;Task analysis;Supervised learning;Context modeling;Predictive models;Computer architecture;Computational modeling;Self-supervised learning;generative model;contrastive learning;deep learning},
+  doi={10.1109/TKDE.2021.3090866},
+  ISSN={1558-2191},
+  month={Jan},}
